@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "373415217902",
+    "project_id": "foodapplications-5625d",
+    "storage_bucket": "foodapplications-5625d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373415217902:android:6fdde2d08c1c7962e5c1ff",
+        "android_client_info": {
+          "package_name": "ucac.edu.ps.foodapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373415217902-e1fk4jruhjmokp3incu95nnncrv373l2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ucac.edu.ps.foodapplication",
+            "certificate_hash": "61012ec1a3be609bcebf637e3e2f0e5de24d21dc"
+          }
+        },
+        {
+          "client_id": "373415217902-pecfg27u8ejpailro6mdeo85su4it729.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgq6MxtklS83ZLsOROQ8tszI0ryvaSTm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373415217902-pecfg27u8ejpailro6mdeo85su4it729.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
