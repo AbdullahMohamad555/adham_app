@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ساهم في التبرع"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        />
+
+
+
+    <com.michaelmuenzer.android.scrollablennumberpicker.ScrollableNumberPicker
+        android:id="@+id/scroll_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:snp_buttonIconLeft="@drawable/ic_left_foreground"
+        app:snp_buttonIconRight="@drawable/ic_right_foreground"
+        app:snp_maxValue="1000"
+        app:snp_minValue="0"
+        app:snp_value="1"
+        app:snp_stepSize="1"
+        app:snp_updateInterval="10"
+        android:orientation="horizontal"
+
+        />
+
+    <Button
+        android:id="@+id/btn_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="أضف لتبرعاتك"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+
+
+</LinearLayout>

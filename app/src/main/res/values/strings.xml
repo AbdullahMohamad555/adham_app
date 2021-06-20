@@ -10,5 +10,17 @@ And the various programs aimed at developing and developing
 The Gaza community</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="poor_families">
+The General Assembly held liberated persons/monthly bags/medicines, Arabic and Arabic/industrial surgeries and chairs/labs, x-rays and chairs Electrical appliances / wooden furniture / blankets and mattresses / bridal preparations / wedding work / wedding work / seasonal aid limited to the general situation such as Ramadan bags and Eid meat / recreational trips for family children / visit for elderly families</string>
+
+    <string name="hospital">Every dollar contributes to saving the life of a sick child because it makes it easier for us to buy medicines and devices from abroad. Contribute to choosing a dollar donation</string>
+
+    <string name="medicine">Every dollar contributes to saving the life of a sick child because it makes it easier for us to buy medicines and devices from abroad. Contribute to choosing a dollar donation</string>
+
+    <string name="with_special_needs">Donate to people with special needs, they are the first to donate</string>
+    <string name="food">Donate to feed people who are unable to provide their daily strength to receive the reward and reward, God willing </string>
+    <string name="student">Donate for students who are unable to complete their studies because of a financial handicap</string>
+
+    <string name="water">Donate for people who are unable to drink healthy water because of the health effects that this has on them</string>
 
 </resources>

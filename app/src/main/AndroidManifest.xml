@@ -11,7 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodApplication">
-        <activity android:name=".Types_donation"></activity>
+        <activity android:name=".donation_Food"></activity>
+        <activity android:name=".Student" />
+        <activity android:name=".Water" />
+        <activity android:name=".Donation" />
+        <activity android:name=".dona_with_special_needs" />
+        <activity android:name=".dona_Midicine" />
+        <activity android:name=".dona_Hospital" />
+        <activity android:name=".dona_family" />
+        <activity android:name=".Types_donation" />
         <activity android:name=".WhoWe_Activity" />
         <activity android:name=".forgotPassword" />
         <activity android:name=".TabedActivity" />
