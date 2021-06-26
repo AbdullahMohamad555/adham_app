@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item android:id="@+id/don_notification"
+        android:title="don_Not"
+          app:showAsAction="always"
+        android:icon="@drawable/cart"
+    android:actionLayout="@layout/custom_notification"
+         />
+    <item android:id="@+id/donation"
+        android:title="donation"
+        app:showAsAction="always"
+        android:icon="@drawable/donationess"
+
+        />
 </menu>

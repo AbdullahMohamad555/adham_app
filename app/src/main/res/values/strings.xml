@@ -23,4 +23,13 @@ The General Assembly held liberated persons/monthly bags/medicines, Arabic and A
 
     <string name="water">Donate for people who are unable to drink healthy water because of the health effects that this has on them</string>
 
+    <string name="no_donation">There are no products in the donation box
+     No donations have been added yet
+     Donate now a product or donate to a case in Egypt
+  The good</string>
+
+    <string name="total_donations">total donations</string>
+    <string name="shekel">shekel 00</string>
+    <string name="pay_donation">Pay your donation</string>
+    <string name="show_Donated">Donated</string>
 </resources>

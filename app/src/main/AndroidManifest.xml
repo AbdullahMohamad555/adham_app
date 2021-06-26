@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodApplication">
-        <activity android:name=".donation_Food"></activity>
+        <activity android:name=".Show_donation"></activity>
+        <activity android:name=".No_Donation" />
+        <activity android:name=".donation_Food" />
         <activity android:name=".Student" />
         <activity android:name=".Water" />
         <activity android:name=".Donation" />
