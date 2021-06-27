@@ -26,6 +26,8 @@ public class TabedActivity extends AppCompatActivity  {
     private TabLayout tab;
     private ViewPager pager;
 
+    TextView textView;
+    int n_p;
 
 
     @Override
@@ -81,6 +83,15 @@ public class TabedActivity extends AppCompatActivity  {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu,menu);
+
+        MenuItem item = menu.findItem(R.id.don_notification);
+        View v = item.getActionView();
+        textView = v.findViewById(R.id.notification_badge);
+        if (textView.equals(0)){
+            textView.setVisibility(View.GONE);
+        }else
+            textView.setVisibility(View.VISIBLE);
+
         return true;
     }
 
@@ -92,10 +103,18 @@ public class TabedActivity extends AppCompatActivity  {
 //        Button btn = v.findViewById(R.id.btn_dialog);
 
 
-
         switch (item.getItemId()){
             case R.id.don_notification:
                 // الانتقال اما على شاشة عرض التبرع في حالة تم التبرع  اما اما في حالة عدم التبرع الانتقال الى شاشة عدم وجود تبرعات
+                if (textView.equals(0)){
+                    Intent intent = new Intent(getApplicationContext(),No_Donation.class);
+                    startActivity(intent);
+                } else {
+                    Intent intent2 = new Intent(getApplicationContext(), Show_donation.class);
+                    intent2.putExtra("value",n_p);
+                    startActivity(intent2);
+                }
+
             case R.id.donation:
                 showCustomDialog();
         }
@@ -114,14 +133,12 @@ public class TabedActivity extends AppCompatActivity  {
         ScrollableNumberPicker numberPicker = dialog.findViewById(R.id.scroll_dialog);
         Button btn = dialog.findViewById(R.id.btn_dialog);
 
-        int n_p =numberPicker.getValue();
+        n_p =numberPicker.getValue();
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (n_p>=1){
-                    Intent intent = new Intent(getApplicationContext(),Show_donation.class);
-                    intent.putExtra("number",n_p);
-                    startActivity(intent);
+                    textView.setText(n_p);
                 }else
                     Toast.makeText(TabedActivity.this, "adding donation", Toast.LENGTH_SHORT).show();
             }

@@ -21,7 +21,7 @@ public class Show_donation extends AppCompatActivity {
         button = findViewById(R.id.show_donation_btn);
 
         Intent intent = getIntent();
-        int i = intent.getIntExtra("number",1);
+        int i = intent.getIntExtra("value",1);
 
         editText.setText(i);
 
@@ -30,6 +30,7 @@ public class Show_donation extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                // حننتقل عشاشة Donation
             }
         });
     }
